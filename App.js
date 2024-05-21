@@ -10,6 +10,7 @@ import 'react-native-gesture-handler';
 import MapScreen from './screens/MapScreen';
 import EatScreen from './screens/EatScreen';
 
+
 export default function App() {
 
   const Stack = createStackNavigator();
