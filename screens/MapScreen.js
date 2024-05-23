@@ -12,6 +12,11 @@ const Stack = createStackNavigator();
 
   return (
     <View>
+
+      <View style={tw`h-1/2`}>
+        <Map />
+      </View>
+
       <View style={tw`h-1/2`}>
       <Stack.Navigator>
         <Stack.Screen
@@ -30,11 +35,6 @@ const Stack = createStackNavigator();
         />
       </Stack.Navigator>
       </View>
-
-      <View style={tw`h-1/2`}>
-        <Map />
-      </View>
-
     </View>
   )
 }
